@@ -1,0 +1,13 @@
+name: Daily Cloudflare Pages Rebuild
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # Every day at 2am UTC. Change as you like.
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Build Hook
+        run: |
+          curl -d "" "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/3597051a-10f7-4512-81e9-5c7103ca4791"
