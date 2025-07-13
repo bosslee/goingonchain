@@ -20,4 +20,4 @@ No shilling, no sponsored stuff. Just honest help as I learn and share.
 Got a question or want to suggest a topic?  
 DM [@goingonchain on X](https://x.com/goingonchain).
 
-Let’s help more people in Singapore get onchain — together, lah!
+Let’s help more people in Singapore get onchain together, lah!
